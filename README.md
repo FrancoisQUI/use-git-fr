@@ -38,7 +38,7 @@ et cliquer sur 'Fork', il apparaîtra alors dans votre liste de repository.
 * #### Obtenir le lien .git du repository
 Rendez-vous sur le repository souhaité, cliquez sur 'Clone or download', copiez le lien et ouvrir un terminal puis rapez cette commande :
 `git clone <le lien du repository>`
-remplacez '<le lien du repository>' par le lien copié précédemment. Vous pouvez alors commencer à coder.
+remplacez 'le lien du repository' par le lien copié précédemment. Vous pouvez alors commencer à coder.
 
 ## Etape 4: Mettre à jour son repository local
 TOus les jours effectuez un :
@@ -48,4 +48,21 @@ TOus les jours effectuez un :
 
 * #### Ajouter les fichiers modifiés
 Afin d'ajouter les fichiers modifiés il est nécessaire de faire un :
-`git add <le chemin de ton fichier>` remplacez '<le chemin de ton fichier>' par le chemin jusqu'au fichier modifié.
+`git add <le chemin de ton fichier>` remplacez 'le chemin de ton fichier' par le chemin jusqu'au fichier modifié.
+
+* #### Effectuer un commit
+Afin d'effectuer un commit il faut écrire la commande :
+`git commit -m '<ton message>'`
+remplacez 'ton message' par la description du commit comme 'Fix Error #536' (Regarder dans le fichier CONTRIBUTING.md si vous travaillez sur un gros projet).
+
+## Etape 6: Faire un push
+
+Pour envoyer les modifications au repository sur github il est nécessaire d'effectuer un push comme ceci :
+`git push origin <la branche>` remplacez 'la branche' par la branche choisie (Si vous fixez une erreur ou ajoutez une fonctionnalité, il est conseillé de créer une branche spéciale à son nom tel que : le nom de l'erreur ou la version).
+
+## Etape 7 (Si le repository vous appartient): git merge
+
+Vous pouvez fusionnez la branche courante avec une autre branche tel que : `git merge <nom de la branche>` remplacez 'nom de la branche' par le nom de la branche avec laquelle vous voulez fusionnez la branche actuelle.
+
+## C'est fini
+Vous savez maintenant utiliser les bases de git ! Mais git est plein de petits secrets ! Alors n'hésitez pas à consulter la documentation [doc](https://git-scm.com/doc)
