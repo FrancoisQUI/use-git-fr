@@ -40,7 +40,7 @@ Rendez-vous sur le repository souhaité, cliquez sur 'Clone or download', copiez
 `git clone <le lien du repository>`
 remplacez '<le lien du repository>' par le lien copié précédemment. Vous pouvez alors commencer à coder.
 
-# Etape 4: Mettre à jour son repossitory local
+## Etape 4: Mettre à jour son repository local
 TOus les jours effectuez un :
 `git pull` afin de mettre à jour votre repository local.
 
